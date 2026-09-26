@@ -1,0 +1,31 @@
+{
+  "files": [
+    ".northspline-site-owner",
+    "README.md",
+    "assets/feature-graphic.png",
+    "assets/icon-32.png",
+    "assets/icon-512.png",
+    "assets/icon-64.png",
+    "assets/icons/cloud.svg",
+    "assets/icons/download.svg",
+    "assets/icons/file-diff.svg",
+    "assets/icons/folder-git-2.svg",
+    "assets/icons/git-branch.svg",
+    "assets/icons/git-merge.svg",
+    "assets/icons/keyboard.svg",
+    "assets/icons/shield-check.svg",
+    "assets/icons/undo-2.svg",
+    "assets/social-card.png",
+    "assets/workspace-dark.png",
+    "assets/workspace-light.png",
+    "index.html",
+    "license.html",
+    "northspline-release-ed25519.pub",
+    "privacy.html",
+    "releases.html",
+    "releases.js",
+    "style.css"
+  ],
+  "owner": "northspline:public-site:v1",
+  "schema": 1
+}

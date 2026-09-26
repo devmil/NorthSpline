@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Northspline is a graph-first desktop Git client for macOS, Linux and Windows, built with Flutter and Rust.">
+  <meta name="theme-color" content="#E8ECEE" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0B151A" media="(prefers-color-scheme: dark)">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Northspline · Your repository, in view">
+  <meta property="og:description" content="A graph-first desktop Git client with precise staging, recovery and hosting workflows.">
+  <meta property="og:image" content="assets/feature-graphic.png">
+  <meta property="og:image:width" content="1024">
+  <meta property="og:image:height" content="500">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="assets/feature-graphic.png">
+  <title>Northspline · Your repository, in view</title>
+  <link rel="icon" href="assets/icon-32.png">
+  <link rel="stylesheet" href="style.css">
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareApplication","name":"Northspline","applicationCategory":"DeveloperApplication","operatingSystem":"macOS, Linux, Windows","license":"https://www.gnu.org/licenses/gpl-3.0.html","description":"A graph-first desktop Git client built with Flutter and Rust."}</script>
+  <script src="releases.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <a href="index.html" class="brand" aria-label="Northspline home"><img src="assets/icon-64.png" width="32" height="32" alt="">Northspline</a>
+    <nav aria-label="Primary">
+      <a href="#features">Features</a>
+      <a href="#downloads">Downloads</a>
+      <a href="releases.html">Release notes</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero" aria-labelledby="hero-title">
+      <svg class="hero-lanes" viewBox="0 0 900 520" aria-hidden="true" focusable="false">
+        <path d="M60 0 V120 C60 170 110 170 110 220 V400 C110 450 60 450 60 520" style="stroke:var(--lane-1)"/>
+        <path d="M60 60 C60 110 20 110 20 160 V300 C20 350 60 350 60 400" style="stroke:var(--lane-2)"/>
+        <circle cx="110" cy="300" r="5" style="stroke:var(--lane-1)"/>
+        <circle cx="20" cy="230" r="5" style="stroke:var(--lane-2)"/>
+        <path d="M840 0 V90 C840 140 790 140 790 190 V330 C790 380 840 380 840 430 V520" style="stroke:var(--lane-1)"/>
+        <path d="M840 150 C840 200 880 200 880 250 V460" style="stroke:var(--lane-3)"/>
+        <circle cx="790" cy="260" r="5" style="stroke:var(--lane-1)"/>
+        <circle cx="880" cy="330" r="5" style="stroke:var(--lane-3)"/>
+      </svg>
+      <img class="hero-mark" src="assets/icon-512.png" width="112" height="112" alt="">
+      <p class="eyebrow">Desktop Git for macOS, Linux and Windows</p>
+      <h1 id="hero-title">Your repository,<br><span>in view.</span></h1>
+      <p class="intro">History, changes and recovery in one calm, fast workspace. Stage exact lines, reshape commits, manage branches and remotes, and review hosted work without losing sight of what Git is really doing.</p>
+      <div class="actions">
+        <a class="button primary" href="#downloads"><span class="icon" style="--icon:url(assets/icons/download.svg)"></span>Get Northspline</a>
+        <a class="button secondary" href="#features">Explore features</a>
+      </div>
+      <p class="platforms">Free software under GPL-3.0. Built with Flutter and Rust.</p>
+    </section>
+
+    <section class="product-shot" aria-label="The Northspline workspace">
+      <div class="window">
+        <div class="window-bar" aria-hidden="true"><span></span><span></span><span></span></div>
+        <picture>
+          <source srcset="assets/workspace-dark.png" media="(prefers-color-scheme: dark)">
+          <img src="assets/workspace-light.png" width="2880" height="1800" alt="The Northspline workspace: repository sidebar, a spline history graph with a merged feature branch, tags and branch chips, and the selected commit's details and changed files">
+        </picture>
+      </div>
+      <p class="caption">One window: the repository on the left, the history graph in the middle, the selected commit on the right.</p>
+    </section>
+
+    <section id="features" aria-labelledby="features-title">
+      <div class="section-heading center">
+        <p class="eyebrow">Implemented workflows</p>
+        <h2 id="features-title">From inspection to recovery.</h2>
+        <p>The everyday Git loop, plus the advanced operations that usually send you back to the terminal.</p>
+      </div>
+      <div class="feature-grid">
+        <article>
+          <div class="feature-icon"><span class="icon" style="--icon:url(assets/icons/file-diff.svg)"></span></div>
+          <h3>Changes that stay exact</h3>
+          <p>Stage files, hunks or single lines. Read unified, split, image and encoding-aware diffs. Commit with amend, sign-off, hooks, templates and co-authors.</p>
+        </article>
+        <article>
+          <div class="feature-icon"><span class="icon" style="--icon:url(assets/icons/git-branch.svg)"></span></div>
+          <h3>Graph-first history</h3>
+          <p>A virtualized spline graph for histories of any size, with trees, blame and reflog. Compare commits, search content and run a guided bisect.</p>
+        </article>
+        <article>
+          <div class="feature-icon"><span class="icon" style="--icon:url(assets/icons/git-merge.svg)"></span></div>
+          <h3>Branches and rewriting</h3>
+          <p>Create, rename, merge, cherry-pick and revert. Preview interactive rebase, autosquash and stacked-branch restacks before anything changes.</p>
+        </article>
+        <article>
+          <div class="feature-icon"><span class="icon" style="--icon:url(assets/icons/cloud.svg)"></span></div>
+          <h3>Remotes and hosting</h3>
+          <p>Fetch, pull and push with explicit force-with-lease. Connect GitHub, GitLab, Forgejo or Codeberg for pull requests and review drafts.</p>
+        </article>
+        <article>
+          <div class="feature-icon"><span class="icon" style="--icon:url(assets/icons/folder-git-2.svg)"></span></div>
+          <h3>Worktrees and extensions</h3>
+          <p>Manage worktrees, submodules and Git LFS. Wire up your editor, terminal, diff and merge tools, and confirmed custom commands.</p>
+        </article>
+        <article>
+          <div class="feature-icon"><span class="icon" style="--icon:url(assets/icons/undo-2.svg)"></span></div>
+          <h3>Recovery you can see</h3>
+          <p>Resume conflicts and rebases after a restart, keep named snapshots and repository-scoped undo, and see uncertain outcomes stated plainly.</p>
+        </article>
+      </div>
+    </section>
+
+    <section aria-labelledby="graph-title">
+      <div class="graph-story">
+        <div class="island">
+          <p class="eyebrow">Designed around the graph</p>
+          <h2 id="graph-title">Every lane has a place.</h2>
+          <p>Your own line of work always runs in the first lane. Branches leave and rejoin it on smooth splines, so merges read at a glance, even in long histories.</p>
+          <ul>
+            <li>Select a commit to light its ancestry; everything else steps back.</li>
+            <li>Branch, remote and tag chips sit on the commit they point to.</li>
+            <li>Keyboard first: the command palette, shortcut hints on ⌘ and native menus.</li>
+          </ul>
+        </div>
+        <div class="island graph-demo">
+          <svg viewBox="0 0 420 232" role="img" aria-label="A history graph: a feature branch leaves the main lane and merges back">
+            <path d="M30 26 V206" style="stroke:var(--lane-1)"/>
+            <path d="M30 26 C30 44 52 44 52 62 V134 C52 152 30 152 30 170" style="stroke:var(--lane-2)"/>
+            <circle cx="30" cy="26" r="7" style="stroke:var(--lane-1);stroke-width:1.5"/>
+            <circle cx="30" cy="26" r="4" style="fill:var(--lane-1);stroke:none"/>
+            <circle cx="52" cy="62" r="4.5" style="stroke:var(--lane-2)"/>
+            <circle cx="30" cy="98" r="4.5" style="stroke:var(--lane-1)"/>
+            <circle cx="52" cy="134" r="4.5" style="stroke:var(--lane-2)"/>
+            <circle cx="30" cy="170" r="4.5" style="stroke:var(--lane-1)"/>
+            <circle cx="30" cy="206" r="4.5" style="stroke:var(--lane-1)"/>
+            <rect class="chip" x="76" y="16" width="42" height="20" rx="5"/>
+            <text class="chip-text" x="97" y="30" text-anchor="middle">main</text>
+            <text x="126" y="31">Merge feature/compass</text>
+            <rect class="chip" x="76" y="52" width="104" height="20" rx="5"/>
+            <text class="chip-text" x="128" y="66" text-anchor="middle">feature/compass</text>
+            <text x="188" y="67">Reveal hints on ⌘</text>
+            <text x="76" y="103">Fit selects to their longest choice</text>
+            <text x="76" y="139">Keep toolbar clicks out of focus</text>
+            <text x="76" y="175">Stage selected lines</text>
+            <text x="76" y="211">Virtualize the history graph</text>
+            <text class="hash" x="410" y="103" text-anchor="end">fdce4bb</text>
+            <text class="hash" x="410" y="139" text-anchor="end">840277a</text>
+            <text class="hash" x="410" y="175" text-anchor="end">938ad07</text>
+            <text class="hash" x="410" y="211" text-anchor="end">4946564</text>
+          </svg>
+        </div>
+      </div>
+    </section>
+
+    <section id="downloads" aria-labelledby="downloads-title">
+      <div class="section-heading center">
+        <p class="eyebrow">Verified releases</p>
+        <h2 id="downloads-title">Choose your platform.</h2>
+        <p>Downloads appear only after signed metadata and every retained public release asset pass byte-for-byte verification.</p>
+      </div>
+      <div id="release-status" class="release-status" role="status" aria-live="polite">No verified public release is available yet.</div>
+      <div id="download-grid" class="download-grid" hidden></div>
+      <p class="trust-note"><span class="icon" style="--icon:url(assets/icons/shield-check.svg)"></span> Each release publishes detached Ed25519 metadata and SHA-256 package identities. <a href="northspline-release-ed25519.pub">View the public verification key</a>.</p>
+      <noscript><p class="release-status">JavaScript is required to render verified platform links.</p></noscript>
+    </section>
+  </main>
+
+  <footer>
+    <div><strong>Northspline</strong><p>Desktop Git, in view.</p></div>
+    <nav aria-label="Legal"><a href="releases.html">Release notes</a><a href="license.html">License</a><a href="privacy.html">Privacy</a></nav>
+    <p>No analytics. No tracking scripts.</p>
+  </footer>
+</body>
+</html>

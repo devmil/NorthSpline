@@ -1,0 +1,35 @@
+# Northspline public website
+
+Run `python3 -m http.server 4173 --directory webfront` and open
+`http://localhost:4173`. The checked-in site shows a deliberate unavailable
+state until an authorized release transaction writes `_data/releases.json`.
+
+The page contains no analytics, cookies or third-party scripts. Platform links
+are rendered only from the signed retained release index and are restricted in
+the browser to unauthenticated `https://github.com/` URLs. The release workflow
+verifies Forgejo and the complete public GitHub mirror before it updates the
+index. `northspline-release-ed25519.pub` is the versioned offline trust root.
+
+The site follows Meridian's Northspline brand (light and dark from
+`prefers-color-scheme`). The workspace screenshots are rendered from the real
+app by the opt-in `website workspace capture` test in
+`test/home_screen_test.dart`; its comment has the command.
+
+Forgejo is authoritative and the public GitHub repository is a mirror.
+`.forgejo/workflows/sync-website.yml` runs on every push to `main` that touches
+the site and mirrors `webfront/` into the GitHub repository's `webfront/`
+directory, together with `.github/workflows/northspline-pages.yml`, which
+deploys it with GitHub Pages. Releases publish the signed index through the
+same mirror. The mirror owns only files recorded by
+`.northspline-managed-files.json` in a directory carrying the exact
+`.northspline-site-owner` marker, and a Pages workflow carrying its ownership
+line. It uses a separate checkout credential and a normal fast-forward push; it
+never force-pushes or claims an unrelated tree. GitHub Pages must be set to
+deploy from GitHub Actions in the mirror's settings.
+
+Run the static and publication fixtures with:
+
+```text
+python3 -m unittest tests.package.test_release_website -v
+python3 scripts/qualify-website.py --chrome /path/to/chrome-headless-shell
+```
