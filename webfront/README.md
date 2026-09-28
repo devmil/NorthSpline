@@ -10,6 +10,10 @@ the browser to unauthenticated `https://github.com/` URLs. The release workflow
 verifies Forgejo and the complete public GitHub mirror before it updates the
 index. `northspline-release-ed25519.pub` is the versioned offline trust root.
 
+`appcast.xml` is the update feed of the macOS application. The release workflow
+renders it from the verified index; it lists only packages that carry an
+update signature. Do not edit it by hand.
+
 The site follows Meridian's Northspline brand (light and dark from
 `prefers-color-scheme`). The workspace screenshots are rendered from the real
 app by the opt-in `website workspace capture` test in

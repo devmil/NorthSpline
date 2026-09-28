@@ -5,6 +5,7 @@
     "_data/channels.json",
     "_data/releases.json",
     "_data/releases.json.sig",
+    "appcast.xml",
     "assets/feature-graphic.png",
     "assets/icon-32.png",
     "assets/icon-512.png",
