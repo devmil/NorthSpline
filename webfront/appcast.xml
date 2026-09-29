@@ -6,6 +6,16 @@
     <description>Northspline updates for macOS</description>
     <language>en</language>
     <item>
+      <title>Northspline 0.1.0-beta.19</title>
+      <link>https://devmil.de/NorthSpline/releases.html</link>
+      <sparkle:version>20</sparkle:version>
+      <sparkle:shortVersionString>0.1.0-beta.19</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <sparkle:channel>beta</sparkle:channel>
+      <description>&lt;ul&gt;&lt;li&gt;The changes dot on a repository tab now sits right next to the repository name.&lt;/li&gt;&lt;li&gt;The Integrations section in the sidebar shows the hosting account linked to the repository and your configured tools.&lt;/li&gt;&lt;/ul&gt;</description>
+      <enclosure url="https://github.com/devmil/NorthSpline/releases/download/v0.1.0-beta.19-20/Northspline-0.1.0-beta.19-20-macos-arm64.dmg" length="17232250" type="application/octet-stream" sparkle:edSignature="pnMqZGH/WQAhee/2qWpn/iMoFmSFLCJYA4Jpo4xqik+9vuRdyznF3esFTX5dfoblCM0G6diVFLSyfYP8+0OQDg==" />
+    </item>
+    <item>
       <title>Northspline 0.1.0-beta.17</title>
       <link>https://devmil.de/NorthSpline/releases.html</link>
       <sparkle:version>18</sparkle:version>
