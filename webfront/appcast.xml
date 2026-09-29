@@ -1,9 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0">
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
   <channel>
     <title>Northspline</title>
     <link>https://devmil.de/NorthSpline/releases.html</link>
     <description>Northspline updates for macOS</description>
     <language>en</language>
+    <item>
+      <title>Northspline 0.1.0-beta.15</title>
+      <link>https://devmil.de/NorthSpline/releases.html</link>
+      <sparkle:version>16</sparkle:version>
+      <sparkle:shortVersionString>0.1.0-beta.15</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <sparkle:channel>beta</sparkle:channel>
+      <description>&lt;ul&gt;&lt;li&gt;Northspline can now update itself. On macOS it looks for new versions in the background and installs one after you confirm. On Linux and Windows, check under Settings &amp;gt; Updates and open the downloads page from there. You can choose between stable and beta releases.&lt;/li&gt;&lt;li&gt;Resolving conflicts is easier to follow. A conflicted file opens on its first conflict, and the sources and the result scroll together, so the conflict you look at is at the same height on both sides.&lt;/li&gt;&lt;li&gt;Previous conflict and Next conflict (F8 and Shift+F8) step through every conflict and continue in the next file.&lt;/li&gt;&lt;li&gt;History opens with a commit selected: the one you had selected before, or the current branch&amp;#x27;s latest commit.&lt;/li&gt;&lt;li&gt;Connected repositories now load pull requests automatically when opened, without first opening the Integrations panel.&lt;/li&gt;&lt;li&gt;Fixed history graph lines stopping abruptly when their connected commits are farther down the history.&lt;/li&gt;&lt;li&gt;Branch and tag clicks now keep the target commit in view on the first click. Tabs keep their close button on the right and update their background when an icon changes. Use arrow keys and Enter in the command palette. Staging retries once after harmless filesystem drift and shows a subtle error if it still fails.&lt;/li&gt;&lt;li&gt;Filter History by branch. Open Branches in the History toolbar to show only one branch or pick several, with search for repositories that have thousands of branches. You can also right-click a branch in the sidebar or in the graph. Each repository remembers its filter.&lt;/li&gt;&lt;li&gt;Large repositories stay smooth: scrolling, hovering and selecting no longer stutter when a repository has thousands of branches.&lt;/li&gt;&lt;li&gt;Reopening a repository shows its branches, changes and history at once while Northspline refreshes them in the background.&lt;/li&gt;&lt;li&gt;Branch and tag markers in History fit their names, and long names keep their beginning and end.&lt;/li&gt;&lt;li&gt;Branch folders and remotes in the sidebar start collapsed. The folder with your current branch stays open.&lt;/li&gt;&lt;li&gt;Selecting another commit no longer breaks the diff&amp;#x27;s pinned hunk header for a moment.&lt;/li&gt;&lt;li&gt;Keep scrolling and interaction responsive after large repositories finish loading their branches and tags.&lt;/li&gt;&lt;li&gt;Large repositories open History much sooner and no longer fail when merges extend beyond the first page. Repeated status scans are faster, and a slow ignore scan no longer incorrectly reports that automatic updates are unavailable.&lt;/li&gt;&lt;/ul&gt;</description>
+      <enclosure url="https://github.com/devmil/NorthSpline/releases/download/v0.1.0-beta.15-16/Northspline-0.1.0-beta.15-16-macos-arm64.dmg" length="17223801" type="application/octet-stream" sparkle:edSignature="JFyblDbJ5hG8kAVO3r4MGEkJQZ5BTk1F4eaRTqH8ZRAurQsaySgBkJU29CLqCStQhujocySsXYaYmaQ3WzcYBA==" />
+    </item>
   </channel>
 </rss>
