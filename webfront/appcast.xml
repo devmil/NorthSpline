@@ -6,6 +6,16 @@
     <description>Northspline updates for macOS</description>
     <language>en</language>
     <item>
+      <title>Northspline 0.1.0-beta.16</title>
+      <link>https://devmil.de/NorthSpline/releases.html</link>
+      <sparkle:version>17</sparkle:version>
+      <sparkle:shortVersionString>0.1.0-beta.16</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <sparkle:channel>beta</sparkle:channel>
+      <description>&lt;ul&gt;&lt;li&gt;Git LFS works again when you start Northspline from Finder or the Dock. Git could not find `git-lfs` there, so refreshing a repository failed.&lt;/li&gt;&lt;li&gt;Every diff has a Create patch button. It writes what you see: the commit or comparison in History, only the open file when you opened one, or the changes of the file in Changes.&lt;/li&gt;&lt;li&gt;You can return from one file to the diff of all files: choose All changes at the top of the file list, or the back arrow in front of the file name.&lt;/li&gt;&lt;li&gt;Context menus are grouped and have icons. With several commits or files selected, the menu says which entries act on the selection and which on the one you clicked.&lt;/li&gt;&lt;/ul&gt;</description>
+      <enclosure url="https://github.com/devmil/NorthSpline/releases/download/v0.1.0-beta.16-17/Northspline-0.1.0-beta.16-17-macos-arm64.dmg" length="17227274" type="application/octet-stream" sparkle:edSignature="wW4ZNoiqxu9XdxXVgE3QDMZ83JL39D6ND2kODNFVEbFF3gaBxfT0NYkf0rRSH37/++XHr3W54fBkNQ0TIQdQAg==" />
+    </item>
+    <item>
       <title>Northspline 0.1.0-beta.15</title>
       <link>https://devmil.de/NorthSpline/releases.html</link>
       <sparkle:version>16</sparkle:version>
