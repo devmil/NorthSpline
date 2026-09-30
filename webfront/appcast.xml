@@ -6,6 +6,16 @@
     <description>Northspline updates for macOS</description>
     <language>en</language>
     <item>
+      <title>Northspline 0.1.0-beta.20</title>
+      <link>https://devmil.de/NorthSpline/releases.html</link>
+      <sparkle:version>21</sparkle:version>
+      <sparkle:shortVersionString>0.1.0-beta.20</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <sparkle:channel>beta</sparkle:channel>
+      <description>&lt;ul&gt;&lt;li&gt;On Linux, right-click menus and toolbar menus such as the Pull and Push options now open.&lt;/li&gt;&lt;li&gt;On Linux, Northspline now uses the title area like on macOS: the toolbar replaces the separate title bar and the window buttons sit at the right end of the toolbar.&lt;/li&gt;&lt;li&gt;History no longer blanks to placeholder rows while a repository refreshes after a slow pull or fetch; the graph and the open commit stay visible and update when the new state is ready.&lt;/li&gt;&lt;li&gt;Switching repositories now shows the details of the selected commit right away.&lt;/li&gt;&lt;li&gt;Selecting a branch in the sidebar that the branch filter hides now shows it in History for as long as it stays selected.&lt;/li&gt;&lt;li&gt;Selecting a tag or the newest stash in the sidebar also shows it in a filtered History.&lt;/li&gt;&lt;li&gt;Repositories with a branch filter now show their last known History immediately when you switch to them or start the app.&lt;/li&gt;&lt;li&gt;The toolbar has a Branch button next to Pull and Push.&lt;/li&gt;&lt;li&gt;A new branch is checked out as soon as it is created, and your uncommitted changes come along. Clear &amp;quot;Check out the new branch&amp;quot; in the dialog to only create it.&lt;/li&gt;&lt;li&gt;Undo no longer offers to remove a branch you are currently on.&lt;/li&gt;&lt;li&gt;GitHub Enterprise Cloud accounts on a `ghe.com` address can now be connected.&lt;/li&gt;&lt;li&gt;When a hosting connection fails, Northspline now says why, for example that the server could not be reached or does not know the address, instead of &amp;quot;unavailable&amp;quot;.&lt;/li&gt;&lt;li&gt;Repository tabs that are not selected are now separated by a thin line, so each one reads as a tab.&lt;/li&gt;&lt;li&gt;A configured diff renderer that does not read its input no longer falls back to the built-in diff at random.&lt;/li&gt;&lt;/ul&gt;</description>
+      <enclosure url="https://github.com/devmil/NorthSpline/releases/download/v0.1.0-beta.20-21/Northspline-0.1.0-beta.20-21-macos-arm64.dmg" length="17238237" type="application/octet-stream" sparkle:edSignature="bwInSvIW6S8qP3hzstbAJTWYN/FX06Airwk7tnu49PsG2zWk09L6uTHPI3FyaWWPQscs4EoaGvdi8R4sT7UDCA==" />
+    </item>
+    <item>
       <title>Northspline 0.1.0-beta.19</title>
       <link>https://devmil.de/NorthSpline/releases.html</link>
       <sparkle:version>20</sparkle:version>
