@@ -282,17 +282,18 @@ h3 { font-size: 16px; line-height: 1.3; margin: 0 0 6px; font-weight: 600; }
 /* Sections hang on one lane: a spine and a commit ring lead into each. */
 .section { position: relative; padding-block: 132px 40px; }
 .section::before {
-  content: ""; position: absolute; left: calc(50% - 1px); top: 0;
+  content: ""; position: absolute; left: 50%; top: 0;
   width: 2px; height: 84px; background: var(--lane-1);
+  transform: translateX(-50%);
   transform-origin: 50% 0; transition: transform 640ms var(--ease);
 }
 .section::after {
-  content: ""; position: absolute; left: calc(50% - 6.5px); top: 84px;
-  width: 13px; height: 13px; border-radius: 50%;
+  content: ""; position: absolute; left: 50%; top: 84px;
+  width: 14px; height: 14px; border-radius: 50%; transform: translateX(-50%);
   border: 2px solid var(--lane-1); background: var(--ground);
   transition: opacity 240ms 480ms;
 }
-.js .section:not(.in)::before { transform: scaleY(0); }
+.js .section:not(.in)::before { transform: translateX(-50%) scaleY(0); }
 .js .section:not(.in)::after { opacity: 0; }
 .section-heading { max-width: 640px; margin: 0 auto 36px; text-align: center; }
 .section-heading p:last-child { margin-bottom: 0; }
@@ -532,14 +533,14 @@ main.legal { max-width: calc(820px + 2 * var(--gutter)); padding-top: 40px; padd
 }
 .release-record + .release-record { margin-top: 12px; }
 .release-record::before {
-  content: ""; position: absolute; left: -23px; top: 0; bottom: -12px;
-  width: 2px; background: var(--lane-1);
+  content: ""; position: absolute; left: -22px; top: 0; bottom: -12px;
+  width: 2px; background: var(--lane-1); transform: translateX(-50%);
 }
 .release-record:first-child::before { top: 28px; }
 .release-record:last-child::before { bottom: auto; height: 28px; }
 .release-record:only-child::before { content: none; }
 .release-record::after {
-  content: ""; position: absolute; left: -28.5px; top: 22px; width: 13px; height: 13px;
+  content: ""; position: absolute; left: -22px; top: 22px; width: 14px; height: 14px; transform: translateX(-50%);
   border-radius: 50%; border: 2px solid var(--lane-1); background: var(--pane);
 }
 .release-record h2 { font-size: 18px; margin: 0 0 2px; letter-spacing: -0.01em; }
