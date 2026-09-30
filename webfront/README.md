@@ -15,7 +15,14 @@ renders it from the verified index; it lists only packages that carry an
 update signature. Do not edit it by hand.
 
 The site follows Meridian's Northspline brand (light and dark from
-`prefers-color-scheme`). The workspace screenshots are rendered from the real
+`prefers-color-scheme`): islands on the ground, `polar` only for intent, lane
+colours only for topology. `site.js` draws the hero's generated lane field with
+the Meridian graph geometry and lane-focus behaviour, and runs the small graph
+and diff models; it honours reduced motion and loads no data. `releases.js`
+alone reads the release index. Platform marks in `assets/platform/` come from
+Simple Icons (CC0) except the Windows mark; `assets/icons/` holds Lucide icons.
+`assets/fonts/JetBrainsMono-Regular.woff2` is a Latin subset of the design
+system's JetBrains Mono, made with `pyftsubset --flavor=woff2`. The workspace screenshots are rendered from the real
 app by the opt-in `website workspace capture` test in
 `test/home_screen_test.dart`; its comment has the command.
 
