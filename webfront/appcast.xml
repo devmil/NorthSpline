@@ -6,6 +6,16 @@
     <description>Northspline updates for macOS</description>
     <language>en</language>
     <item>
+      <title>Northspline 0.1.0-beta.26</title>
+      <link>https://devmil.de/NorthSpline/releases.html</link>
+      <sparkle:version>27</sparkle:version>
+      <sparkle:shortVersionString>0.1.0-beta.26</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <sparkle:channel>beta</sparkle:channel>
+      <description>&lt;ul&gt;&lt;li&gt;Revert a commit by creating a new commit or leaving the reversed changes staged for review. Commit or stash existing changes first. Apply without committing works with one commit at a time; merge commits cannot be reverted yet.&lt;/li&gt;&lt;li&gt;Find commands in grouped menus. Right-clicking a commit or one of its chips now opens the same menu, with a submenu for every branch, tag and stash at that commit.&lt;/li&gt;&lt;li&gt;Unavailable actions stay visible but disabled, including checkout for the current branch and its tracked remote branch.&lt;/li&gt;&lt;li&gt;Cancel now stops a running merge, cherry-pick, revert or stash.&lt;/li&gt;&lt;li&gt;Merges and other history operations now show what they are doing, with a spinner and Cancel, over their own repository only. Your other tabs stay usable meanwhile.&lt;/li&gt;&lt;li&gt;After a merge, cherry-pick, revert, rebase or pull, History selects the new commit.&lt;/li&gt;&lt;li&gt;Clicking a commit that is already visible, or one of its branch labels, no longer scrolls it to the top.&lt;/li&gt;&lt;li&gt;Absolute commit dates in History are no longer cut off.&lt;/li&gt;&lt;li&gt;Tabs now drag like in a web browser: the other tabs make room as you drag, and you can drag a whole tab group by its name.&lt;/li&gt;&lt;li&gt;Drag a tab into a group or out of it; the coloured line under the group shows whether the tab will belong to it.&lt;/li&gt;&lt;li&gt;Tab groups can show an icon: right-click the group and choose one under Icon.&lt;/li&gt;&lt;li&gt;Branches in History now show their open pull request next to them, fetched as they scroll into view. Click the number to open the pull request.&lt;/li&gt;&lt;li&gt;The Pull requests section in the sidebar lists your own open pull requests and those of the branches you have looked at. It starts collapsed.&lt;/li&gt;&lt;li&gt;Branches also show their merged pull request, marked with a merge symbol, when they have no open one.&lt;/li&gt;&lt;li&gt;Pull request links appear right away, also after restarting Northspline, and are refreshed in the background.&lt;/li&gt;&lt;li&gt;Branch pull requests also work with Forgejo.&lt;/li&gt;&lt;li&gt;Loading more pull requests no longer repeats the first page, and a finished load is no longer lost when another one starts.&lt;/li&gt;&lt;li&gt;The toolbar shows a renamed tab&amp;#x27;s name, together with its group&amp;#x27;s name.&lt;/li&gt;&lt;/ul&gt;</description>
+      <enclosure url="https://github.com/devmil/NorthSpline/releases/download/v0.1.0-beta.26-27/Northspline-0.1.0-beta.26-27-macos-arm64.dmg" length="17436324" type="application/octet-stream" sparkle:edSignature="sOeK8gU2q76GWkb3cF9kmo0EB7O1EY900oHPYd7F3JIq0dnpsDyHhNAPatheqffyVL9FZdwjbKTB6+vDGSy8Dw==" />
+    </item>
+    <item>
       <title>Northspline 0.1.0-beta.25</title>
       <link>https://devmil.de/NorthSpline/releases.html</link>
       <sparkle:version>26</sparkle:version>
@@ -44,16 +54,6 @@
       <sparkle:channel>beta</sparkle:channel>
       <description>&lt;ul&gt;&lt;li&gt;On Linux, right-click menus and toolbar menus such as the Pull and Push options now open.&lt;/li&gt;&lt;li&gt;On Linux, Northspline now uses the title area like on macOS: the toolbar replaces the separate title bar and the window buttons sit at the right end of the toolbar.&lt;/li&gt;&lt;li&gt;History no longer blanks to placeholder rows while a repository refreshes after a slow pull or fetch; the graph and the open commit stay visible and update when the new state is ready.&lt;/li&gt;&lt;li&gt;Switching repositories now shows the details of the selected commit right away.&lt;/li&gt;&lt;li&gt;Selecting a branch in the sidebar that the branch filter hides now shows it in History for as long as it stays selected.&lt;/li&gt;&lt;li&gt;Selecting a tag or the newest stash in the sidebar also shows it in a filtered History.&lt;/li&gt;&lt;li&gt;Repositories with a branch filter now show their last known History immediately when you switch to them or start the app.&lt;/li&gt;&lt;li&gt;The toolbar has a Branch button next to Pull and Push.&lt;/li&gt;&lt;li&gt;A new branch is checked out as soon as it is created, and your uncommitted changes come along. Clear &amp;quot;Check out the new branch&amp;quot; in the dialog to only create it.&lt;/li&gt;&lt;li&gt;Undo no longer offers to remove a branch you are currently on.&lt;/li&gt;&lt;li&gt;GitHub Enterprise Cloud accounts on a `ghe.com` address can now be connected.&lt;/li&gt;&lt;li&gt;When a hosting connection fails, Northspline now says why, for example that the server could not be reached or does not know the address, instead of &amp;quot;unavailable&amp;quot;.&lt;/li&gt;&lt;li&gt;Repository tabs that are not selected are now separated by a thin line, so each one reads as a tab.&lt;/li&gt;&lt;li&gt;A configured diff renderer that does not read its input no longer falls back to the built-in diff at random.&lt;/li&gt;&lt;/ul&gt;</description>
       <enclosure url="https://github.com/devmil/NorthSpline/releases/download/v0.1.0-beta.20-21/Northspline-0.1.0-beta.20-21-macos-arm64.dmg" length="17238237" type="application/octet-stream" sparkle:edSignature="bwInSvIW6S8qP3hzstbAJTWYN/FX06Airwk7tnu49PsG2zWk09L6uTHPI3FyaWWPQscs4EoaGvdi8R4sT7UDCA==" />
-    </item>
-    <item>
-      <title>Northspline 0.1.0-beta.19</title>
-      <link>https://devmil.de/NorthSpline/releases.html</link>
-      <sparkle:version>20</sparkle:version>
-      <sparkle:shortVersionString>0.1.0-beta.19</sparkle:shortVersionString>
-      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-      <sparkle:channel>beta</sparkle:channel>
-      <description>&lt;ul&gt;&lt;li&gt;The changes dot on a repository tab now sits right next to the repository name.&lt;/li&gt;&lt;li&gt;The Integrations section in the sidebar shows the hosting account linked to the repository and your configured tools.&lt;/li&gt;&lt;/ul&gt;</description>
-      <enclosure url="https://github.com/devmil/NorthSpline/releases/download/v0.1.0-beta.19-20/Northspline-0.1.0-beta.19-20-macos-arm64.dmg" length="17232250" type="application/octet-stream" sparkle:edSignature="pnMqZGH/WQAhee/2qWpn/iMoFmSFLCJYA4Jpo4xqik+9vuRdyznF3esFTX5dfoblCM0G6diVFLSyfYP8+0OQDg==" />
     </item>
   </channel>
 </rss>
