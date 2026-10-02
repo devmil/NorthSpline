@@ -6,6 +6,16 @@
     <description>Northspline updates for macOS</description>
     <language>en</language>
     <item>
+      <title>Northspline 0.1.0-beta.25</title>
+      <link>https://devmil.de/NorthSpline/releases.html</link>
+      <sparkle:version>26</sparkle:version>
+      <sparkle:shortVersionString>0.1.0-beta.25</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <sparkle:channel>beta</sparkle:channel>
+      <description>&lt;ul&gt;&lt;li&gt;History now keeps remote branches visually separate from your current commit until they join at their actual parent.&lt;/li&gt;&lt;li&gt;If a pull fails because Git objects are missing locally, Northspline now offers to fetch the objects again. Check any changes left by the failed pull before retrying it.&lt;/li&gt;&lt;/ul&gt;</description>
+      <enclosure url="https://github.com/devmil/NorthSpline/releases/download/v0.1.0-beta.25-26/Northspline-0.1.0-beta.25-26-macos-arm64.dmg" length="17411841" type="application/octet-stream" sparkle:edSignature="/0y/1cDogXPIWvOHjiX+sZ/MfEHLJVN41y1hjq5ssHtj6lGipfgmd2BJLnka0/C7+Fh4bdkKvliJt0EvRzgqBg==" />
+    </item>
+    <item>
       <title>Northspline 0.1.0-beta.24</title>
       <link>https://devmil.de/NorthSpline/releases.html</link>
       <sparkle:version>25</sparkle:version>
@@ -44,16 +54,6 @@
       <sparkle:channel>beta</sparkle:channel>
       <description>&lt;ul&gt;&lt;li&gt;The changes dot on a repository tab now sits right next to the repository name.&lt;/li&gt;&lt;li&gt;The Integrations section in the sidebar shows the hosting account linked to the repository and your configured tools.&lt;/li&gt;&lt;/ul&gt;</description>
       <enclosure url="https://github.com/devmil/NorthSpline/releases/download/v0.1.0-beta.19-20/Northspline-0.1.0-beta.19-20-macos-arm64.dmg" length="17232250" type="application/octet-stream" sparkle:edSignature="pnMqZGH/WQAhee/2qWpn/iMoFmSFLCJYA4Jpo4xqik+9vuRdyznF3esFTX5dfoblCM0G6diVFLSyfYP8+0OQDg==" />
-    </item>
-    <item>
-      <title>Northspline 0.1.0-beta.17</title>
-      <link>https://devmil.de/NorthSpline/releases.html</link>
-      <sparkle:version>18</sparkle:version>
-      <sparkle:shortVersionString>0.1.0-beta.17</sparkle:shortVersionString>
-      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-      <sparkle:channel>beta</sparkle:channel>
-      <description>&lt;ul&gt;&lt;li&gt;Fetch, pull, push and clone use the credentials from your Git configuration. If a remote works with `git` on the command line because a credential helper is set in `.gitconfig`, it now works in Northspline too.&lt;/li&gt;&lt;li&gt;Commit and push now pushes exactly like Push: after the commit you get the same push dialog, and sign-in or host-key questions work the same way.&lt;/li&gt;&lt;li&gt;Filtering the graph to a branch also shows the remote branch it tracks. You can remove that one from the filter again.&lt;/li&gt;&lt;li&gt;The main branch comes first in the sidebar and in the graph filter.&lt;/li&gt;&lt;li&gt;The sidebar&amp;#x27;s scrollbar appears only while the pointer is over the sidebar or while you scroll.&lt;/li&gt;&lt;/ul&gt;</description>
-      <enclosure url="https://github.com/devmil/NorthSpline/releases/download/v0.1.0-beta.17-18/Northspline-0.1.0-beta.17-18-macos-arm64.dmg" length="17230542" type="application/octet-stream" sparkle:edSignature="5Qf7eFGb6+ISywZF+F9+bmk+k+XAhgLFZYm9oBT4Mkm2s4onMP73Gr8KABBIbQkMpc6gyvV6dFWIfChhhX6bCw==" />
     </item>
   </channel>
 </rss>
