@@ -6,6 +6,16 @@
     <description>Northspline updates for macOS</description>
     <language>en</language>
     <item>
+      <title>Northspline 0.1.0-beta.24</title>
+      <link>https://devmil.de/NorthSpline/releases.html</link>
+      <sparkle:version>25</sparkle:version>
+      <sparkle:shortVersionString>0.1.0-beta.24</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <sparkle:channel>beta</sparkle:channel>
+      <description>&lt;ul&gt;&lt;li&gt;Northspline uses much less additional memory over time while it stays open and repositories keep changing.&lt;/li&gt;&lt;li&gt;Reduced memory growth as new commits arrive in History on Linux. History content is temporarily unavailable to Linux screen readers while this workaround is in place.&lt;/li&gt;&lt;li&gt;Repository tabs can be renamed: click the active tab again, or choose Rename tab… from its menu.&lt;/li&gt;&lt;li&gt;Repository tabs can be grouped. Each group gets a name and a colour, and collapses to a single chip when you click it. Groups come back when you reopen Northspline.&lt;/li&gt;&lt;li&gt;The commit description grows with the commit area: drag the divider above it to make room for longer messages, and double-click the divider to return.&lt;/li&gt;&lt;li&gt;Dividers between panes now show where to drag when you point at them.&lt;/li&gt;&lt;li&gt;When a commit&amp;#x27;s ancestry is highlighted in History, the other commits&amp;#x27; text fades with their lines.&lt;/li&gt;&lt;li&gt;A filter above the changed files narrows the Unstaged and Staged lists by path. Staging, unstaging or discarding everything then acts only on the files you see.&lt;/li&gt;&lt;/ul&gt;</description>
+      <enclosure url="https://github.com/devmil/NorthSpline/releases/download/v0.1.0-beta.24-25/Northspline-0.1.0-beta.24-25-macos-arm64.dmg" length="17405021" type="application/octet-stream" sparkle:edSignature="Z0KjQd/984J1N2D6XD79DGPiqYI/+anU4vZULTkSn8Z5KnZ/76ku7tQ7omHfcL7R9VhV03iRtnYfVWPaXXnSAA==" />
+    </item>
+    <item>
       <title>Northspline 0.1.0-beta.21</title>
       <link>https://devmil.de/NorthSpline/releases.html</link>
       <sparkle:version>22</sparkle:version>
@@ -44,16 +54,6 @@
       <sparkle:channel>beta</sparkle:channel>
       <description>&lt;ul&gt;&lt;li&gt;Fetch, pull, push and clone use the credentials from your Git configuration. If a remote works with `git` on the command line because a credential helper is set in `.gitconfig`, it now works in Northspline too.&lt;/li&gt;&lt;li&gt;Commit and push now pushes exactly like Push: after the commit you get the same push dialog, and sign-in or host-key questions work the same way.&lt;/li&gt;&lt;li&gt;Filtering the graph to a branch also shows the remote branch it tracks. You can remove that one from the filter again.&lt;/li&gt;&lt;li&gt;The main branch comes first in the sidebar and in the graph filter.&lt;/li&gt;&lt;li&gt;The sidebar&amp;#x27;s scrollbar appears only while the pointer is over the sidebar or while you scroll.&lt;/li&gt;&lt;/ul&gt;</description>
       <enclosure url="https://github.com/devmil/NorthSpline/releases/download/v0.1.0-beta.17-18/Northspline-0.1.0-beta.17-18-macos-arm64.dmg" length="17230542" type="application/octet-stream" sparkle:edSignature="5Qf7eFGb6+ISywZF+F9+bmk+k+XAhgLFZYm9oBT4Mkm2s4onMP73Gr8KABBIbQkMpc6gyvV6dFWIfChhhX6bCw==" />
-    </item>
-    <item>
-      <title>Northspline 0.1.0-beta.16</title>
-      <link>https://devmil.de/NorthSpline/releases.html</link>
-      <sparkle:version>17</sparkle:version>
-      <sparkle:shortVersionString>0.1.0-beta.16</sparkle:shortVersionString>
-      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-      <sparkle:channel>beta</sparkle:channel>
-      <description>&lt;ul&gt;&lt;li&gt;Git LFS works again when you start Northspline from Finder or the Dock. Git could not find `git-lfs` there, so refreshing a repository failed.&lt;/li&gt;&lt;li&gt;Every diff has a Create patch button. It writes what you see: the commit or comparison in History, only the open file when you opened one, or the changes of the file in Changes.&lt;/li&gt;&lt;li&gt;You can return from one file to the diff of all files: choose All changes at the top of the file list, or the back arrow in front of the file name.&lt;/li&gt;&lt;li&gt;Context menus are grouped and have icons. With several commits or files selected, the menu says which entries act on the selection and which on the one you clicked.&lt;/li&gt;&lt;/ul&gt;</description>
-      <enclosure url="https://github.com/devmil/NorthSpline/releases/download/v0.1.0-beta.16-17/Northspline-0.1.0-beta.16-17-macos-arm64.dmg" length="17227274" type="application/octet-stream" sparkle:edSignature="wW4ZNoiqxu9XdxXVgE3QDMZ83JL39D6ND2kODNFVEbFF3gaBxfT0NYkf0rRSH37/++XHr3W54fBkNQ0TIQdQAg==" />
     </item>
   </channel>
 </rss>
