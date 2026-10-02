@@ -6,6 +6,16 @@
     <description>Northspline updates for macOS</description>
     <language>en</language>
     <item>
+      <title>Northspline 0.1.0-beta.27</title>
+      <link>https://devmil.de/NorthSpline/releases.html</link>
+      <sparkle:version>28</sparkle:version>
+      <sparkle:shortVersionString>0.1.0-beta.27</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <sparkle:channel>beta</sparkle:channel>
+      <description>&lt;ul&gt;&lt;li&gt;Delete worktrees whose folders are missing. If a deletion fails, an error now stays visible beside the worktree list.&lt;/li&gt;&lt;li&gt;Worktree names now follow branch switches automatically. A checkmark and bold name make the current worktree easier to spot.&lt;/li&gt;&lt;li&gt;Hosting connections now renew expiring access tokens automatically, so Forgejo and GitLab keep working without repeated sign-ins.&lt;/li&gt;&lt;li&gt;Right-click a commit or any of its chips to access commit actions directly, without opening a commit submenu.&lt;/li&gt;&lt;/ul&gt;</description>
+      <enclosure url="https://github.com/devmil/NorthSpline/releases/download/v0.1.0-beta.27-28/Northspline-0.1.0-beta.27-28-macos-arm64.dmg" length="17444420" type="application/octet-stream" sparkle:edSignature="nF33yv+n/XcOaFAh+MZ+fJJRc0W3kNXfZSlsw3uGnK6/p9MF5x9Kr6SM/jLWt4APk10latUBmPPGzVjXxgHaAg==" />
+    </item>
+    <item>
       <title>Northspline 0.1.0-beta.26</title>
       <link>https://devmil.de/NorthSpline/releases.html</link>
       <sparkle:version>27</sparkle:version>
@@ -44,16 +54,6 @@
       <sparkle:channel>beta</sparkle:channel>
       <description>&lt;ul&gt;&lt;li&gt;Large repositories respond faster after a pull, fetch, checkout, commit or staging: Northspline now rescans the repository once instead of twice, and History updates about a second earlier in a repository of 63,000 files.&lt;/li&gt;&lt;li&gt;The Logbook no longer fills with failed &amp;quot;Refresh repository&amp;quot; entries in large repositories, and an operation that finished is no longer reported as needing attention only because the following refresh took long.&lt;/li&gt;&lt;li&gt;The warning that repository changes &amp;quot;arrived faster than they could be displayed&amp;quot; no longer appears after Northspline&amp;#x27;s own pull or checkout.&lt;/li&gt;&lt;li&gt;A running fetch, pull or push now shows what it is doing and how far it is, for example &amp;quot;Pull · Updating files 85%&amp;quot;. Downloads of Git LFS files are shown as their own step.&lt;/li&gt;&lt;li&gt;The Logbook lists your operations without the &amp;quot;Git operation&amp;quot; entries that every refresh added.&lt;/li&gt;&lt;li&gt;When you pull with uncommitted changes, the Pull dialog now asks you to confirm before you can start, instead of failing after it closed.&lt;/li&gt;&lt;li&gt;While a repository opens, the toolbar shows its branch instead of &amp;quot;Detached HEAD&amp;quot;.&lt;/li&gt;&lt;li&gt;Closing a repository tab during a running operation can no longer hang.&lt;/li&gt;&lt;li&gt;After a pull, History scrolls to the new HEAD and selects it, so the commits you just pulled are in view.&lt;/li&gt;&lt;/ul&gt;</description>
       <enclosure url="https://github.com/devmil/NorthSpline/releases/download/v0.1.0-beta.21-22/Northspline-0.1.0-beta.21-22-macos-arm64.dmg" length="17234160" type="application/octet-stream" sparkle:edSignature="zyfz4nOM42Gunhq22i0kHwso1b7Q+WTn7E+DyUdrSZmu2rjFgSY4X5DI3I38xZh02cZ5yaHcxuBSjxkYbsYcCQ==" />
-    </item>
-    <item>
-      <title>Northspline 0.1.0-beta.20</title>
-      <link>https://devmil.de/NorthSpline/releases.html</link>
-      <sparkle:version>21</sparkle:version>
-      <sparkle:shortVersionString>0.1.0-beta.20</sparkle:shortVersionString>
-      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-      <sparkle:channel>beta</sparkle:channel>
-      <description>&lt;ul&gt;&lt;li&gt;On Linux, right-click menus and toolbar menus such as the Pull and Push options now open.&lt;/li&gt;&lt;li&gt;On Linux, Northspline now uses the title area like on macOS: the toolbar replaces the separate title bar and the window buttons sit at the right end of the toolbar.&lt;/li&gt;&lt;li&gt;History no longer blanks to placeholder rows while a repository refreshes after a slow pull or fetch; the graph and the open commit stay visible and update when the new state is ready.&lt;/li&gt;&lt;li&gt;Switching repositories now shows the details of the selected commit right away.&lt;/li&gt;&lt;li&gt;Selecting a branch in the sidebar that the branch filter hides now shows it in History for as long as it stays selected.&lt;/li&gt;&lt;li&gt;Selecting a tag or the newest stash in the sidebar also shows it in a filtered History.&lt;/li&gt;&lt;li&gt;Repositories with a branch filter now show their last known History immediately when you switch to them or start the app.&lt;/li&gt;&lt;li&gt;The toolbar has a Branch button next to Pull and Push.&lt;/li&gt;&lt;li&gt;A new branch is checked out as soon as it is created, and your uncommitted changes come along. Clear &amp;quot;Check out the new branch&amp;quot; in the dialog to only create it.&lt;/li&gt;&lt;li&gt;Undo no longer offers to remove a branch you are currently on.&lt;/li&gt;&lt;li&gt;GitHub Enterprise Cloud accounts on a `ghe.com` address can now be connected.&lt;/li&gt;&lt;li&gt;When a hosting connection fails, Northspline now says why, for example that the server could not be reached or does not know the address, instead of &amp;quot;unavailable&amp;quot;.&lt;/li&gt;&lt;li&gt;Repository tabs that are not selected are now separated by a thin line, so each one reads as a tab.&lt;/li&gt;&lt;li&gt;A configured diff renderer that does not read its input no longer falls back to the built-in diff at random.&lt;/li&gt;&lt;/ul&gt;</description>
-      <enclosure url="https://github.com/devmil/NorthSpline/releases/download/v0.1.0-beta.20-21/Northspline-0.1.0-beta.20-21-macos-arm64.dmg" length="17238237" type="application/octet-stream" sparkle:edSignature="bwInSvIW6S8qP3hzstbAJTWYN/FX06Airwk7tnu49PsG2zWk09L6uTHPI3FyaWWPQscs4EoaGvdi8R4sT7UDCA==" />
     </item>
   </channel>
 </rss>
