@@ -6,6 +6,16 @@
     <description>Northspline updates for macOS</description>
     <language>en</language>
     <item>
+      <title>Northspline 0.1.0-beta.29</title>
+      <link>https://devmil.de/NorthSpline/releases.html</link>
+      <sparkle:version>30</sparkle:version>
+      <sparkle:shortVersionString>0.1.0-beta.29</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <sparkle:channel>beta</sparkle:channel>
+      <description>&lt;ul&gt;&lt;li&gt;Files above 8 MiB show their size and type in Changes, History and comparisons instead of keeping the diff loading.&lt;/li&gt;&lt;li&gt;Large files in a repository no longer block staging other changes.&lt;/li&gt;&lt;li&gt;Fetching now removes remote branches that were deleted on the server, and deleting a remote branch that is already gone (for example after a merged pull request) no longer fails.&lt;/li&gt;&lt;li&gt;Pushing a branch without an upstream now sets the upstream by default.&lt;/li&gt;&lt;/ul&gt;</description>
+      <enclosure url="https://github.com/devmil/NorthSpline/releases/download/v0.1.0-beta.29-30/Northspline-0.1.0-beta.29-30-macos-arm64.dmg" length="17912471" type="application/octet-stream" sparkle:edSignature="cjvGd7Op11NnZSg7S5TBbdt60tsFcuLRSJeBO2G+zkzoVkgWE+3O4h71a04ikAcDS1adIUsJ2GRxA0//EYrXAA==" />
+    </item>
+    <item>
       <title>Northspline 0.1.0-beta.28</title>
       <link>https://devmil.de/NorthSpline/releases.html</link>
       <sparkle:version>29</sparkle:version>
@@ -44,16 +54,6 @@
       <sparkle:channel>beta</sparkle:channel>
       <description>&lt;ul&gt;&lt;li&gt;History now keeps remote branches visually separate from your current commit until they join at their actual parent.&lt;/li&gt;&lt;li&gt;If a pull fails because Git objects are missing locally, Northspline now offers to fetch the objects again. Check any changes left by the failed pull before retrying it.&lt;/li&gt;&lt;/ul&gt;</description>
       <enclosure url="https://github.com/devmil/NorthSpline/releases/download/v0.1.0-beta.25-26/Northspline-0.1.0-beta.25-26-macos-arm64.dmg" length="17411841" type="application/octet-stream" sparkle:edSignature="/0y/1cDogXPIWvOHjiX+sZ/MfEHLJVN41y1hjq5ssHtj6lGipfgmd2BJLnka0/C7+Fh4bdkKvliJt0EvRzgqBg==" />
-    </item>
-    <item>
-      <title>Northspline 0.1.0-beta.24</title>
-      <link>https://devmil.de/NorthSpline/releases.html</link>
-      <sparkle:version>25</sparkle:version>
-      <sparkle:shortVersionString>0.1.0-beta.24</sparkle:shortVersionString>
-      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-      <sparkle:channel>beta</sparkle:channel>
-      <description>&lt;ul&gt;&lt;li&gt;Northspline uses much less additional memory over time while it stays open and repositories keep changing.&lt;/li&gt;&lt;li&gt;Reduced memory growth as new commits arrive in History on Linux. History content is temporarily unavailable to Linux screen readers while this workaround is in place.&lt;/li&gt;&lt;li&gt;Repository tabs can be renamed: click the active tab again, or choose Rename tab… from its menu.&lt;/li&gt;&lt;li&gt;Repository tabs can be grouped. Each group gets a name and a colour, and collapses to a single chip when you click it. Groups come back when you reopen Northspline.&lt;/li&gt;&lt;li&gt;The commit description grows with the commit area: drag the divider above it to make room for longer messages, and double-click the divider to return.&lt;/li&gt;&lt;li&gt;Dividers between panes now show where to drag when you point at them.&lt;/li&gt;&lt;li&gt;When a commit&amp;#x27;s ancestry is highlighted in History, the other commits&amp;#x27; text fades with their lines.&lt;/li&gt;&lt;li&gt;A filter above the changed files narrows the Unstaged and Staged lists by path. Staging, unstaging or discarding everything then acts only on the files you see.&lt;/li&gt;&lt;/ul&gt;</description>
-      <enclosure url="https://github.com/devmil/NorthSpline/releases/download/v0.1.0-beta.24-25/Northspline-0.1.0-beta.24-25-macos-arm64.dmg" length="17405021" type="application/octet-stream" sparkle:edSignature="Z0KjQd/984J1N2D6XD79DGPiqYI/+anU4vZULTkSn8Z5KnZ/76ku7tQ7omHfcL7R9VhV03iRtnYfVWPaXXnSAA==" />
     </item>
   </channel>
 </rss>
