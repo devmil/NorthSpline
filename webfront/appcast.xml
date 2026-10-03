@@ -6,6 +6,16 @@
     <description>Northspline updates for macOS</description>
     <language>en</language>
     <item>
+      <title>Northspline 0.1.0-beta.28</title>
+      <link>https://devmil.de/NorthSpline/releases.html</link>
+      <sparkle:version>29</sparkle:version>
+      <sparkle:shortVersionString>0.1.0-beta.28</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <sparkle:channel>beta</sparkle:channel>
+      <description>&lt;ul&gt;&lt;li&gt;Amend now fills the last commit’s subject and description even when selected immediately after opening Changes. Draft edits are preserved.&lt;/li&gt;&lt;li&gt;Open diffs for new files left at a staged rename&amp;#x27;s original path, and for unstaged edits to its destination.&lt;/li&gt;&lt;li&gt;Preview SVG icons and other supported vector artwork in image comparisons.&lt;/li&gt;&lt;li&gt;Choose the new worktree&amp;#x27;s destination with the system folder picker, or enter its path directly.&lt;/li&gt;&lt;li&gt;Fix staging new files and folders individually, which could fail even when &amp;quot;Stage all&amp;quot; worked.&lt;/li&gt;&lt;li&gt;Fixed cut-out window corners on Linux while keeping the rounded appearance.&lt;/li&gt;&lt;li&gt;Move the Linux window by dragging anywhere on the open screen&amp;#x27;s title area, including over the Northspline name.&lt;/li&gt;&lt;/ul&gt;</description>
+      <enclosure url="https://github.com/devmil/NorthSpline/releases/download/v0.1.0-beta.28-29/Northspline-0.1.0-beta.28-29-macos-arm64.dmg" length="17888288" type="application/octet-stream" sparkle:edSignature="GUJ/pu0x5ZUlL3yER+8+g/Pji6ip+lOtqYNYmYlvmLFDRK+OEODMwDmt/ayvy5mu5TZbnjNsc2RR0te++Dj3Cw==" />
+    </item>
+    <item>
       <title>Northspline 0.1.0-beta.27</title>
       <link>https://devmil.de/NorthSpline/releases.html</link>
       <sparkle:version>28</sparkle:version>
@@ -44,16 +54,6 @@
       <sparkle:channel>beta</sparkle:channel>
       <description>&lt;ul&gt;&lt;li&gt;Northspline uses much less additional memory over time while it stays open and repositories keep changing.&lt;/li&gt;&lt;li&gt;Reduced memory growth as new commits arrive in History on Linux. History content is temporarily unavailable to Linux screen readers while this workaround is in place.&lt;/li&gt;&lt;li&gt;Repository tabs can be renamed: click the active tab again, or choose Rename tab… from its menu.&lt;/li&gt;&lt;li&gt;Repository tabs can be grouped. Each group gets a name and a colour, and collapses to a single chip when you click it. Groups come back when you reopen Northspline.&lt;/li&gt;&lt;li&gt;The commit description grows with the commit area: drag the divider above it to make room for longer messages, and double-click the divider to return.&lt;/li&gt;&lt;li&gt;Dividers between panes now show where to drag when you point at them.&lt;/li&gt;&lt;li&gt;When a commit&amp;#x27;s ancestry is highlighted in History, the other commits&amp;#x27; text fades with their lines.&lt;/li&gt;&lt;li&gt;A filter above the changed files narrows the Unstaged and Staged lists by path. Staging, unstaging or discarding everything then acts only on the files you see.&lt;/li&gt;&lt;/ul&gt;</description>
       <enclosure url="https://github.com/devmil/NorthSpline/releases/download/v0.1.0-beta.24-25/Northspline-0.1.0-beta.24-25-macos-arm64.dmg" length="17405021" type="application/octet-stream" sparkle:edSignature="Z0KjQd/984J1N2D6XD79DGPiqYI/+anU4vZULTkSn8Z5KnZ/76ku7tQ7omHfcL7R9VhV03iRtnYfVWPaXXnSAA==" />
-    </item>
-    <item>
-      <title>Northspline 0.1.0-beta.21</title>
-      <link>https://devmil.de/NorthSpline/releases.html</link>
-      <sparkle:version>22</sparkle:version>
-      <sparkle:shortVersionString>0.1.0-beta.21</sparkle:shortVersionString>
-      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-      <sparkle:channel>beta</sparkle:channel>
-      <description>&lt;ul&gt;&lt;li&gt;Large repositories respond faster after a pull, fetch, checkout, commit or staging: Northspline now rescans the repository once instead of twice, and History updates about a second earlier in a repository of 63,000 files.&lt;/li&gt;&lt;li&gt;The Logbook no longer fills with failed &amp;quot;Refresh repository&amp;quot; entries in large repositories, and an operation that finished is no longer reported as needing attention only because the following refresh took long.&lt;/li&gt;&lt;li&gt;The warning that repository changes &amp;quot;arrived faster than they could be displayed&amp;quot; no longer appears after Northspline&amp;#x27;s own pull or checkout.&lt;/li&gt;&lt;li&gt;A running fetch, pull or push now shows what it is doing and how far it is, for example &amp;quot;Pull · Updating files 85%&amp;quot;. Downloads of Git LFS files are shown as their own step.&lt;/li&gt;&lt;li&gt;The Logbook lists your operations without the &amp;quot;Git operation&amp;quot; entries that every refresh added.&lt;/li&gt;&lt;li&gt;When you pull with uncommitted changes, the Pull dialog now asks you to confirm before you can start, instead of failing after it closed.&lt;/li&gt;&lt;li&gt;While a repository opens, the toolbar shows its branch instead of &amp;quot;Detached HEAD&amp;quot;.&lt;/li&gt;&lt;li&gt;Closing a repository tab during a running operation can no longer hang.&lt;/li&gt;&lt;li&gt;After a pull, History scrolls to the new HEAD and selects it, so the commits you just pulled are in view.&lt;/li&gt;&lt;/ul&gt;</description>
-      <enclosure url="https://github.com/devmil/NorthSpline/releases/download/v0.1.0-beta.21-22/Northspline-0.1.0-beta.21-22-macos-arm64.dmg" length="17234160" type="application/octet-stream" sparkle:edSignature="zyfz4nOM42Gunhq22i0kHwso1b7Q+WTn7E+DyUdrSZmu2rjFgSY4X5DI3I38xZh02cZ5yaHcxuBSjxkYbsYcCQ==" />
     </item>
   </channel>
 </rss>
